@@ -120,11 +120,18 @@
       border-bottom: 1px solid rgba(255,255,255,0.04);
     }
     .nav-logo {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 15px;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+    }
+    .nav-logo a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .nav-logo img {
+      height: 72px;
+      width: auto;
+      display: block;
     }
     .nav-links { display: flex; gap: 32px; list-style: none; }
     .nav-links a {
@@ -795,7 +802,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">KO.dev</div>
+  <div class="nav-logo"><a href="#" aria-label="KO.dev Home"><img src="images/ko-dev.png" alt="KO.dev" /></a></div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
