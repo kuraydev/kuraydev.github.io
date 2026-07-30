@@ -565,6 +565,11 @@
     }
 
     /* ─── APPS ─── */
+    #ai {
+      padding: 120px 10vw;
+      background: linear-gradient(180deg, transparent, rgba(199,92,235,0.03), transparent);
+    }
+
     #apps {
       padding: 120px 10vw;
       background: linear-gradient(180deg, transparent, rgba(67,233,123,0.02), transparent);
@@ -764,7 +769,7 @@
       nav { padding: 16px 24px; }
       .nav-links { display: none; }
       #hero { padding: 0 6vw; padding-top: 80px; }
-      #about, #experience, #opensource, #apps, #contact { padding: 80px 6vw; }
+      #about, #experience, #opensource, #ai, #apps, #contact { padding: 80px 6vw; }
       .hero-stats { gap: 28px; }
       .oss-hero { grid-template-columns: 1fr; gap: 24px; }
       .contact-card { padding: 40px 24px; }
@@ -804,10 +809,11 @@
 <nav>
   <div class="nav-logo"><a href="#" aria-label="KO.dev Home"><img src="images/kuraydev.png" alt="KO.dev" /></a></div>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
     <li><a href="#experience">Experience</a></li>
-    <li><a href="#opensource">Open Source</a></li>
+    <li><a href="#ai">AI</a></li>
     <li><a href="#apps">Apps</a></li>
+    <li><a href="#opensource">Open Source</a></li>
+    <li><a href="#about">Stack</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -848,6 +854,322 @@
       <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
       GitHub Profile
     </a>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="reveal">
+    <div class="section-label">Work History</div>
+    <h2 class="section-title">Experience</h2>
+  </div>
+
+  <div class="timeline">
+
+    <!-- ══ ALBERT AB ══ -->
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-meta">
+        <span class="timeline-date">02/2022 – Present</span>
+        <span class="timeline-company">Albert AB · Sweden</span>
+      </div>
+      <div class="timeline-role">Lead Engineer — Mobile Platform / Math</div>
+      <div class="timeline-sub">4+ years · Albert Junior Platform</div>
+      <div class="app-link-row">
+        <a href="https://play.google.com/store/apps/details?id=se.mralbert.junior&hl=en" target="_blank" class="app-link-btn">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.19l13.12-7.54-2.76-2.78-11.35 10.13zm-1.93-20.5C1.09 3.6 1 3.97 1 4.36v15.28c0 .39.09.76.25 1.1l.07.07 8.56-8.58v-.2L1.32 3.19l-.07.07zM20.37 9.9l-2.77-1.6-3.1 3.11 3.1 3.12 2.8-1.61c.8-.46.8-1.55-.03-2.02zM4.17.48l13.12 7.54-2.76 2.77L3.18.66A1.17 1.17 0 014.17.48z"/></svg>
+          Play Store
+        </a>
+        <a href="https://apps.apple.com/dk/app/albert-junior/id1486597368" target="_blank" class="app-link-btn">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          App Store
+        </a>
+      </div>
+      <ul class="timeline-highlights">
+        <li>Led a platform-wide modernization initiative — rebuilt the entire app foundation: structure, component system, navigation layer, and bridge architecture from scratch.</li>
+        <li>Standardized the shared component system and reworked the navigation layer to improve consistency, reusability, and faster feature delivery across a multi-module setup.</li>
+        <li>Re-engineered the Unity integration path through custom native bridge development — enabling Unity-based experiences to run inside React Native with improved reliability.</li>
+        <li>Led CI/CD workflow design and maintenance — in-house dev/test flows, Detox E2E testing, DangerJS standards, and automated pipelines for reliable release cycles.</li>
+        <li>Partnered with teachers and education specialists to align technical implementation with pedagogical goals and age-appropriate UX for children.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tech-tag">React Native</span>
+        <span class="tech-tag">TypeScript</span>
+        <span class="tech-tag">ReactJS</span>
+        <span class="tech-tag">Unity</span>
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">Kotlin</span>
+        <span class="tech-tag">CI/CD</span>
+        <span class="tech-tag">Detox E2E</span>
+      </div>
+    </div>
+
+    <!-- ══ COURSION STUDIO ══ -->
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-meta">
+        <span class="timeline-date">2024 – Present</span>
+        <span class="timeline-company">Coursion Studio · Independent</span>
+      </div>
+      <div class="timeline-role">Indie Engineer — AI Developer Tooling &amp; macOS Apps</div>
+      <div class="timeline-sub">Agentic tooling &amp; native macOS products</div>
+      <ul class="timeline-highlights">
+        <li>Built <strong>agent-kit</strong>, an internal AI-agent toolkit — a portable library of Claude Code skills, subagents, slash-commands, and CLI scripts, symlinked across machines for a consistent agentic development setup on every project.</li>
+        <li>Designed a shared Swift UI package and code-generation subagents so new app screens scaffold onto a single, token-driven design system.</li>
+        <li>Explored agent-first developer workflows end to end — headless LLM orchestration, streaming tool-call protocols, and native transcript UIs built directly over the Claude Code CLI.</li>
+        <li>Shipped direct-distributed native macOS apps from scratch — Developer ID signing, Apple notarization, Sparkle auto-updates, and Homebrew distribution.</li>
+      </ul>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Claude Code</span>
+        <span class="tech-tag">LLM Agents</span>
+        <span class="tech-tag">CLI Tooling</span>
+      </div>
+    </div>
+
+    <!-- ══ PARABOL ══ -->
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-meta">
+        <span class="timeline-date">2016 – 2022</span>
+        <span class="timeline-company">Parabol · Turkiye</span>
+      </div>
+      <div class="timeline-role">Senior Software Engineer</div>
+      <div class="timeline-sub">6 years · 3 Major Projects</div>
+
+      <!-- DUMA -->
+      <div class="sub-project">
+        <div class="sub-project-title">🚌 DUMA — Dynamic Urban Mobility Assistant</div>
+        <ul class="timeline-highlights">
+          <li>Served as Project Manager and Lead Mobile Engineer — designed and led end-to-end delivery of production-ready mobile apps for Android and iOS in React Native.</li>
+          <li>Implemented an in-house real-time navigation system for a custom map using a React Native native module — no third-party navigation SDK.</li>
+          <li>Developed native background location integrations on Android (Java) and iOS (Objective-C), connected to React Native via custom native bridges.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Java → Kotlin</span>
+          <span class="tech-tag">Objective-C</span>
+          <span class="tech-tag">Swift</span>
+          <span class="tech-tag">Native Bridge</span>
+          <span class="tech-tag">Maps</span>
+        </div>
+      </div>
+
+      <!-- Pintask -->
+      <div class="sub-project">
+        <div class="sub-project-title">📋 Pintask — Field Task & Inventory Management</div>
+        <ul class="timeline-highlights">
+          <li>Developed a cross-platform field management platform supporting task assignment, site tracking, and operational workflows for field teams.</li>
+          <li>Led the design and development of a customizable inventory management module with real-time map coordination and Sentry monitoring.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Maps</span>
+          <span class="tech-tag">Sentry</span>
+          <span class="tech-tag">Cross-platform</span>
+        </div>
+      </div>
+
+      <!-- METIS -->
+      <div class="sub-project">
+        <div class="sub-project-title">🚦 METIS — Central Traffic Management Platform</div>
+        <ul class="timeline-highlights">
+          <li>Developed mobile features for a custom traffic and mobility operations platform used to monitor and control traffic lights and field mobility infrastructure.</li>
+          <li>Contributed to mobile architecture and system integrations aligned with the broader central traffic management platform.</li>
+        </ul>
+        <div class="tech-tags">
+          <span class="tech-tag">React Native</span>
+          <span class="tech-tag">Native Android</span>
+          <span class="tech-tag">Native iOS</span>
+          <span class="tech-tag">System Integration</span>
+        </div>
+      </div>
+
+    </div><!-- /parabol -->
+
+  </div><!-- /timeline -->
+
+</section>
+
+<!-- AI PROJECTS -->
+<section id="ai">
+  <div class="reveal">
+    <div class="section-label">AI &amp; Agents</div>
+    <h2 class="section-title">AI-Native Products</h2>
+  </div>
+
+  <div class="apps-grid">
+    <div class="app-card reveal">
+      <div class="app-icon"><img src="images/aistats.png" alt="AI Stats icon" /></div>
+      <div class="app-name">AI Stats</div>
+      <div class="app-desc">Native macOS menu-bar app that tracks AI usage, limits, and spending across Claude, ChatGPT, Codex, Cursor, Gemini, and more — all in one place. 100% on-device: no server, no accounts, no tracking.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Menu Bar</span>
+        <span class="tech-tag">On-Device</span>
+      </div>
+      <a href="https://aistats.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        aistats.coursion.studio →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.1s">
+      <div class="app-icon"><img src="images/hutch.png" alt="Hutch icon" /></div>
+      <div class="app-name">Hutch</div>
+      <div class="app-desc">Multi-tool macOS utility built around Pounce, an AI-augmented command launcher with 26+ sources (apps, calculations, web, AI actions, clipboard, files, system controls, conversions). Bundles a floating file shelf, a menu-bar toggle popover, and a window manager — direct-distributed with notarization and Sparkle auto-updates.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">AppKit</span>
+        <span class="tech-tag">Accessibility API</span>
+        <span class="tech-tag">Sparkle</span>
+      </div>
+      <a href="https://hutch.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        hutch.coursion.studio →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.2s">
+      <div class="app-icon"><img src="images/forge.png" alt="Forge icon" /></div>
+      <div class="app-name">Forge</div>
+      <div class="app-desc">Agent-first macOS development workbench — a cloud-shaped IDE that runs fully on your own Mac. Each workspace pre-wires everything an AI agent needs: a native Claude Code chat over the headless CLI (streaming tool calls, permission cards, diffs), terminals, browser, git/PR review, planning board, and simulator. Bring your own LLM key.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">AppKit</span>
+        <span class="tech-tag">Claude Code</span>
+        <span class="tech-tag">LLM Agents</span>
+      </div>
+      <a href="https://forge.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        forge.coursion.studio →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.3s">
+      <div class="app-icon"><img src="images/knack.png" alt="Knack icon" /></div>
+      <div class="app-name">Knack</div>
+      <div class="app-desc">The complete Mac toolkit — 20 native, on-device tools for images, PDFs, video, and audio, including Whisper-powered transcription and OCR text extraction. Everything runs on your Mac: no uploads, no accounts, no subscription.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">WhisperKit</span>
+        <span class="tech-tag">Vision</span>
+        <span class="tech-tag">On-Device</span>
+      </div>
+      <a href="https://knack.coursion.studio" target="_blank" class="app-link" style="margin-top: 20px;">
+        knack.coursion.studio →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.4s">
+      <div class="app-icon"><img src="images/rift.png" alt="Rift icon" /></div>
+      <div class="app-name">Rift</div>
+      <div class="app-desc">Native macOS cockpit to review, blame, and verify AI-generated code — agent-agnostic. Agent-attribution blame surfaces which agent session produced each line; an on-device model triages every diff with Claude escalation for deep review, alongside a full Monaco diff and GitHub PR surface. It sits beside your agent, not in place of it.</div>
+      <div class="tech-tags">
+        <span class="tech-tag">Swift</span>
+        <span class="tech-tag">SwiftUI</span>
+        <span class="tech-tag">Monaco</span>
+        <span class="tech-tag">On-Device ML</span>
+        <span class="tech-tag">Git</span>
+      </div>
+      <span class="app-link" style="margin-top: 20px; color: var(--muted); cursor: default;">
+        In development
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- APPS -->
+<section id="apps">
+  <div class="reveal">
+    <div class="section-label">Indie Mobile Apps</div>
+    <h2 class="section-title">Mobile Apps, Built by Me End to End</h2>
+  </div>
+
+  <div class="apps-grid">
+    <div class="app-card reveal">
+      <div class="app-icon"><img src="images/nutrify.png" alt="Nutrify icon" /></div>
+      <div class="app-name">Nutrify</div>
+      <div class="app-desc">Supplement & wellness tracking app with AI-assisted features for supplement schedule planning, intake flows, and personalized wellness guidance.</div>
+      <a href="https://apps.apple.com/us/app/nutrify-supplement-tracker/id6753355163" target="_blank" class="app-link">
+        View on App Store →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.1s">
+      <div class="app-icon"><img src="images/noty.png" alt="Noty icon" /></div>
+      <div class="app-name">Noty</div>
+      <div class="app-desc">Daily planning and todo app focused on simple productivity, routines, and habit/streak-friendly workflows. Ongoing AI feature enhancements.</div>
+      <a href="https://apps.apple.com/us/app/noty-planning-your-day/id1620951759" target="_blank" class="app-link">
+        View on App Store →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.2s">
+      <div class="app-icon"><img src="images/shoppy.png" alt="Shoppy icon" /></div>
+      <div class="app-name">Shoppy</div>
+      <div class="app-desc">Shopping list app with practical list management and polished UX for everyday use. Clean, fast, and focused on what matters.</div>
+      <a href="https://apps.apple.com/us/app/shoppy-shopping-list/id1621044552" target="_blank" class="app-link">
+        View on App Store →
+      </a>
+    </div>
+
+    <div class="app-card reveal" style="animation-delay: 0.3s">
+      <div class="app-icon"><img src="images/nailai.png" alt="NailAI icon" /></div>
+      <div class="app-name">NailAI</div>
+      <div class="app-desc">AI-powered nail app that merges beauty and wellness — capture your nails with the camera to generate creative nail-art designs, transfer any nail-art style onto your own nails, and get computer-vision nail-health analysis with personalized care tips.</div>
+      <span class="app-link" style="color: var(--muted); cursor: default;">
+        Coming soon
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- OPEN SOURCE -->
+<section id="opensource">
+  <div class="reveal">
+    <div class="section-label">Open Source</div>
+    <h2 class="section-title">Community Impact</h2>
+  </div>
+
+  <div class="oss-hero reveal">
+    <div>
+      <div class="oss-stat-num">8.000.000+</div>
+      <div class="oss-stat-label">Total Downloads</div>
+    </div>
+    <div>
+      <div class="oss-stat-num">100+</div>
+      <div class="oss-stat-label">Libraries Published</div>
+    </div>
+    <div>
+      <div class="oss-stat-num">5K+</div>
+      <div class="oss-stat-label">GitHub Stars</div>
+    </div>
+  </div>
+
+  <div class="pkg-table reveal">
+    <div class="pkg-row header">
+      <span>Package</span>
+      <span>Downloads</span>
+    </div>
+    <div class="pkg-row">
+      <span class="pkg-name">react-native-bouncy-checkbox</span>
+      <span class="pkg-downloads">3,666,194</span>
+    </div>
+    <div class="pkg-row">
+      <span class="pkg-name">@freakycoder/react-native-bounceable</span>
+      <span class="pkg-downloads">1,227,303</span>
+    </div>
+    <div class="pkg-row">
+      <span class="pkg-name">react-native-dynamic-vector-icons</span>
+      <span class="pkg-downloads">401,275</span>
+    </div>
+    <div class="pkg-row" style="color: var(--muted); font-size: 13px;">
+      <span style="font-style: italic;">+ 97 more libraries across npm, GitHub, CocoaPods</span>
+      <span style="color: var(--accent3);">8M+ total</span>
+    </div>
   </div>
 </section>
 
@@ -957,200 +1279,6 @@
   </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="reveal">
-    <div class="section-label">Work History</div>
-    <h2 class="section-title">Experience</h2>
-  </div>
-
-  <div class="timeline">
-
-    <!-- ══ ALBERT AB ══ -->
-    <div class="timeline-item reveal">
-      <div class="timeline-dot"></div>
-      <div class="timeline-meta">
-        <span class="timeline-date">02/2022 – Present</span>
-        <span class="timeline-company">Albert AB · Sweden</span>
-      </div>
-      <div class="timeline-role">Lead Engineer — Mobile Platform / Math</div>
-      <div class="timeline-sub">4+ years · Albert Junior Platform</div>
-      <div class="app-link-row">
-        <a href="https://play.google.com/store/apps/details?id=se.mralbert.junior&hl=en" target="_blank" class="app-link-btn">
-          <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M3.18 23.76c.3.17.64.24.99.19l13.12-7.54-2.76-2.78-11.35 10.13zm-1.93-20.5C1.09 3.6 1 3.97 1 4.36v15.28c0 .39.09.76.25 1.1l.07.07 8.56-8.58v-.2L1.32 3.19l-.07.07zM20.37 9.9l-2.77-1.6-3.1 3.11 3.1 3.12 2.8-1.61c.8-.46.8-1.55-.03-2.02zM4.17.48l13.12 7.54-2.76 2.77L3.18.66A1.17 1.17 0 014.17.48z"/></svg>
-          Play Store
-        </a>
-        <a href="https://apps.apple.com/dk/app/albert-junior/id1486597368" target="_blank" class="app-link-btn">
-          <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-          App Store
-        </a>
-      </div>
-      <ul class="timeline-highlights">
-        <li>Led a platform-wide modernization initiative — rebuilt the entire app foundation: structure, component system, navigation layer, and bridge architecture from scratch.</li>
-        <li>Standardized the shared component system and reworked the navigation layer to improve consistency, reusability, and faster feature delivery across a multi-module setup.</li>
-        <li>Re-engineered the Unity integration path through custom native bridge development — enabling Unity-based experiences to run inside React Native with improved reliability.</li>
-        <li>Led CI/CD workflow design and maintenance — in-house dev/test flows, Detox E2E testing, DangerJS standards, and automated pipelines for reliable release cycles.</li>
-        <li>Partnered with teachers and education specialists to align technical implementation with pedagogical goals and age-appropriate UX for children.</li>
-      </ul>
-      <div class="tech-tags">
-        <span class="tech-tag">React Native</span>
-        <span class="tech-tag">TypeScript</span>
-        <span class="tech-tag">ReactJS</span>
-        <span class="tech-tag">Unity</span>
-        <span class="tech-tag">Swift</span>
-        <span class="tech-tag">Kotlin</span>
-        <span class="tech-tag">CI/CD</span>
-        <span class="tech-tag">Detox E2E</span>
-      </div>
-    </div>
-
-    <!-- ══ PARABOL ══ -->
-    <div class="timeline-item reveal">
-      <div class="timeline-dot"></div>
-      <div class="timeline-meta">
-        <span class="timeline-date">2016 – 2022</span>
-        <span class="timeline-company">Parabol · Turkiye</span>
-      </div>
-      <div class="timeline-role">Senior Software Engineer</div>
-      <div class="timeline-sub">6 years · 3 Major Projects</div>
-
-      <!-- DUMA -->
-      <div class="sub-project">
-        <div class="sub-project-title">🚌 DUMA — Dynamic Urban Mobility Assistant</div>
-        <ul class="timeline-highlights">
-          <li>Served as Project Manager and Lead Mobile Engineer — designed and led end-to-end delivery of production-ready mobile apps for Android and iOS in React Native.</li>
-          <li>Implemented an in-house real-time navigation system for a custom map using a React Native native module — no third-party navigation SDK.</li>
-          <li>Developed native background location integrations on Android (Java) and iOS (Objective-C), connected to React Native via custom native bridges.</li>
-        </ul>
-        <div class="tech-tags">
-          <span class="tech-tag">React Native</span>
-          <span class="tech-tag">Java → Kotlin</span>
-          <span class="tech-tag">Objective-C</span>
-          <span class="tech-tag">Swift</span>
-          <span class="tech-tag">Native Bridge</span>
-          <span class="tech-tag">Maps</span>
-        </div>
-      </div>
-
-      <!-- Pintask -->
-      <div class="sub-project">
-        <div class="sub-project-title">📋 Pintask — Field Task & Inventory Management</div>
-        <ul class="timeline-highlights">
-          <li>Developed a cross-platform field management platform supporting task assignment, site tracking, and operational workflows for field teams.</li>
-          <li>Led the design and development of a customizable inventory management module with real-time map coordination and Sentry monitoring.</li>
-        </ul>
-        <div class="tech-tags">
-          <span class="tech-tag">React Native</span>
-          <span class="tech-tag">Maps</span>
-          <span class="tech-tag">Sentry</span>
-          <span class="tech-tag">Cross-platform</span>
-        </div>
-      </div>
-
-      <!-- METIS -->
-      <div class="sub-project">
-        <div class="sub-project-title">🚦 METIS — Central Traffic Management Platform</div>
-        <ul class="timeline-highlights">
-          <li>Developed mobile features for a custom traffic and mobility operations platform used to monitor and control traffic lights and field mobility infrastructure.</li>
-          <li>Contributed to mobile architecture and system integrations aligned with the broader central traffic management platform.</li>
-        </ul>
-        <div class="tech-tags">
-          <span class="tech-tag">React Native</span>
-          <span class="tech-tag">Native Android</span>
-          <span class="tech-tag">Native iOS</span>
-          <span class="tech-tag">System Integration</span>
-        </div>
-      </div>
-
-    </div><!-- /parabol -->
-
-  </div><!-- /timeline -->
-
-</section>
-
-<!-- OPEN SOURCE -->
-<section id="opensource">
-  <div class="reveal">
-    <div class="section-label">Open Source</div>
-    <h2 class="section-title">Community Impact</h2>
-  </div>
-
-  <div class="oss-hero reveal">
-    <div>
-      <div class="oss-stat-num">8.000.000+</div>
-      <div class="oss-stat-label">Total Downloads</div>
-    </div>
-    <div>
-      <div class="oss-stat-num">100+</div>
-      <div class="oss-stat-label">Libraries Published</div>
-    </div>
-    <div>
-      <div class="oss-stat-num">5K+</div>
-      <div class="oss-stat-label">GitHub Stars</div>
-    </div>
-  </div>
-
-  <div class="pkg-table reveal">
-    <div class="pkg-row header">
-      <span>Package</span>
-      <span>Downloads</span>
-    </div>
-    <div class="pkg-row">
-      <span class="pkg-name">react-native-bouncy-checkbox</span>
-      <span class="pkg-downloads">3,666,194</span>
-    </div>
-    <div class="pkg-row">
-      <span class="pkg-name">@freakycoder/react-native-bounceable</span>
-      <span class="pkg-downloads">1,227,303</span>
-    </div>
-    <div class="pkg-row">
-      <span class="pkg-name">react-native-dynamic-vector-icons</span>
-      <span class="pkg-downloads">401,275</span>
-    </div>
-    <div class="pkg-row" style="color: var(--muted); font-size: 13px;">
-      <span style="font-style: italic;">+ 97 more libraries across npm, GitHub, CocoaPods</span>
-      <span style="color: var(--accent3);">8M+ total</span>
-    </div>
-  </div>
-</section>
-
-<!-- APPS -->
-<section id="apps">
-  <div class="reveal">
-    <div class="section-label">Indie Apps</div>
-    <h2 class="section-title">Built by Me, End to End</h2>
-  </div>
-
-  <div class="apps-grid">
-    <div class="app-card reveal">
-      <div class="app-icon"><img src="images/nutrify.png" alt="Nutrify icon" /></div>
-      <div class="app-name">Nutrify</div>
-      <div class="app-desc">Supplement & wellness tracking app with AI-assisted features for supplement schedule planning, intake flows, and personalized wellness guidance.</div>
-      <a href="https://apps.apple.com/us/app/nutrify-supplement-tracker/id6753355163" target="_blank" class="app-link">
-        View on App Store →
-      </a>
-    </div>
-
-    <div class="app-card reveal" style="animation-delay: 0.1s">
-      <div class="app-icon"><img src="images/noty.png" alt="Noty icon" /></div>
-      <div class="app-name">Noty</div>
-      <div class="app-desc">Daily planning and todo app focused on simple productivity, routines, and habit/streak-friendly workflows. Ongoing AI feature enhancements.</div>
-      <a href="https://apps.apple.com/us/app/noty-planning-your-day/id1620951759" target="_blank" class="app-link">
-        View on App Store →
-      </a>
-    </div>
-
-    <div class="app-card reveal" style="animation-delay: 0.2s">
-      <div class="app-icon"><img src="images/shoppy.png" alt="Shoppy icon" /></div>
-      <div class="app-name">Shoppy</div>
-      <div class="app-desc">Shopping list app with practical list management and polished UX for everyday use. Clean, fast, and focused on what matters.</div>
-      <a href="https://apps.apple.com/us/app/shoppy-shopping-list/id1621044552" target="_blank" class="app-link">
-        View on App Store →
-      </a>
-    </div>
-  </div>
-</section>
-
 <!-- CONTACT -->
 <section id="contact">
   <div class="contact-card reveal">
@@ -1159,9 +1287,9 @@
       Open to senior & lead engineering roles, consulting, and interesting open-source collaborations.
     </p>
     <div class="contact-links">
-      <a href="mailto:kurayogun@gmail.com" class="contact-link">
+      <a href="mailto:kuraydev.io@gmail.com" class="contact-link">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        kurayogun@gmail.com
+        kuraydev.io@gmail.com
       </a>
       <a href="https://github.com/kuraydev" target="_blank" class="contact-link">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>

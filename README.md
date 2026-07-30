@@ -98,6 +98,6 @@ python3 -m http.server 3000
 
 ## Contact
 
-- **Email:** kurayogun@gmail.com
+- **Email:** kuraydev.io@gmail.com
 - **GitHub:** [github.com/kuraydev](https://github.com/kuraydev)
 - **LinkedIn:** [linkedin.com/in/kuray-ogun](https://linkedin.com/in/kuray-ogun)
